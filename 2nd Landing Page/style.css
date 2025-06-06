@@ -30,6 +30,7 @@ body {
   display: flex;
   align-items: center;
   gap: 4vw;
+  cursor: pointer;
 }
 
 .nav h2 {
@@ -55,6 +56,18 @@ body {
 .nav i {
   font-weight: 800;
   display: none;
+}
+
+.nav-part2 h4 {
+  text-decoration: underline 2px solid transparent;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.3s ease-in-out;
+}
+
+.nav-part2 h4:hover{
+  color: lightseagreen;
+  text-decoration-color: lightseagreen;
+
 }
 
 .content {
