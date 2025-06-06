@@ -101,6 +101,11 @@ body {
   margin-bottom: 3vw;
 }
 
+.all-button:hover{
+  background-color: rgb(33, 154, 148);
+  transition: background-color 0.3s ease-in-out;
+}
+
 .content button {
   font-size: 1.2vw;
   padding: 1.3vw 2.3vw;
