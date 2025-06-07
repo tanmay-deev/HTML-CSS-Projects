@@ -30,7 +30,7 @@ nav {
   align-items: center;
   color: #fff;
   font-family: sans-serif;
-  padding-top: 15px;
+  padding: 15px 0;
 }
 
 li{
@@ -74,6 +74,7 @@ li a:hover{
     top: 7rem;
     font-size: 4rem;
     word-spacing: 10px;
+    /* margin-top: -70px; */
 }
 
 .primary-heading{
@@ -93,4 +94,49 @@ li a:hover{
     background: transparent;
     background: var(--main-color);
     transform: translateY(60px);
+}
+
+/* our story */
+#our-story{
+    /* height: 100vh; */
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(img-coffee/pexels-chitokan-2183027-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.title-style{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    color: #fff;
+    transform: translateX(-100px);
+}
+
+.line{
+    height: 2px;
+    width: 100px;
+    background: #fff;
+    transform: translateX(-120px);
+}
+
+.section-content p{
+    max-width: 500px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
 }
