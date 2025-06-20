@@ -54,7 +54,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: pink;
-    width: 60%;
+    width: 50vw;
     height: 40px;
     border-radius: 4px;
 }
@@ -71,6 +71,7 @@
     width: 100%;
     font-size: 1rem;
     border: none;
+    outline: none;
 }
 
 .search-icon{
@@ -84,8 +85,31 @@
     color: #0f1111;
 }
 
+.nav-search:hover{
+    border: 3px solid #febd68;
+}
+
+
 /* sign in box */
 
 span{
     font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* nav cart box  */
+
+.nav-cart{
+    display: flex;
+    align-items: end;
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
 }
