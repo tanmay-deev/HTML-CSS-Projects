@@ -169,6 +169,9 @@ header{
 
 /* comapny header */
 
+.companies-section{
+    padding-bottom: 30px;
+}
 .companies-header{
     text-align: center;
     margin-block: 30px;
