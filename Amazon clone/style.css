@@ -54,7 +54,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: pink;
-    width: 60vw;
+    width: 50vw;
     height: 40px;
     border-radius: 8px;
     border: 4px solid #0f1111;
@@ -144,11 +144,14 @@ span{
 
 /* hero section  */
 
+
+.flex {
+    display: flex;
+}
 .hero-section{
     background-image: url(Assets/hero_image.jpg);
     background-size: cover;
     height: 350px;
-    display: flex;
     justify-content: center;
     align-items: flex-end;
 }
@@ -173,7 +176,6 @@ span{
 /* shop section  */
 
 .shop-section{
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
