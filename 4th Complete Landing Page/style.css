@@ -169,9 +169,6 @@ header{
 
 /* comapny header */
 
-.companies-section{
-    padding-bottom: 30px;
-}
 .companies-header{
     text-align: center;
     margin-block: 30px;
@@ -187,3 +184,16 @@ header{
     height: 46px;
 }
 
+/* feature seciton */
+
+.features-section{
+    padding: 80px var(--padding-inline-section) 0;
+}
+
+.features-header{
+    text-align: center;
+}
+
+.features-header h2{
+    margin-bottom: 20px;
+}
