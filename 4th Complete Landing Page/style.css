@@ -215,3 +215,26 @@ header{
     max-width: 30%;
     text-align: center;
 }
+
+/* Big feature section */
+
+.big-features-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-feature-container{
+    gap: 30px;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.features-desc{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mid-feature-container{
+    flex-direction: row-reverse;
+}
