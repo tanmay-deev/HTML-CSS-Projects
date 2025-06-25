@@ -188,6 +188,9 @@ header{
 
 .features-section{
     padding: 80px var(--padding-inline-section) 0;
+    background-image: url(assets/asset\ 32.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .features-header{
@@ -196,4 +199,19 @@ header{
 
 .features-header h2{
     margin-bottom: 20px;
+}
+
+/* features cards */
+
+.features-area{
+    flex-wrap: wrap;  
+    justify-content: space-between; 
+    gap: 20px;
+    margin-top: 20px;
+}
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
 }
