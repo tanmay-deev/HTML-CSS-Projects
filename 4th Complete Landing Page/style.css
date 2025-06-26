@@ -287,3 +287,22 @@ header{
     bottom: 20px;
     color: white;
 }
+
+/* cta section */
+
+.cta-section{
+    background-color: #183b54;
+    padding: 120px var(--padding-inline-section) 80px;
+}
+
+.cta-section-container p{
+    color: white;
+    margin-top: 20px;
+}
+
+.cta-section-container{
+    flex-direction: column;
+    color: white;
+    /* text-align: center; */
+    gap: 30px;
+}
