@@ -306,3 +306,14 @@ header{
     /* text-align: center; */
     gap: 30px;
 }
+
+/* footer section */
+
+footer{
+    padding-block: 80px;
+    background-color:#ebf2fa;
+}
+
+.footer-container{
+
+}
